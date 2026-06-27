@@ -81,6 +81,7 @@ Create a `.env` file in the root directory and add your credentials. You can use
 
 ```env
 NEXTAUTH_URL="http://localhost:3000"
+NEXT_PUBLIC_API_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your_secret_here"
 MONGO_USER="your_db_username"
 MONGO_PASS="your_db_password"
