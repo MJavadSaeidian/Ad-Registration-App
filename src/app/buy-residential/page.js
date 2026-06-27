@@ -4,7 +4,7 @@ import React from 'react'
 async function BuyResidential({ searchParams }) {
     const params = await searchParams;
 
-    const res = await fetch("http://localhost:3000/api/profile", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/profile`, {
         cache: "no-store"
     });
 
