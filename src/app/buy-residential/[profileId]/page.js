@@ -2,7 +2,9 @@ import Profile from "@/models/Profile";
 import DetailsPage from "@/template/DetailsPage";
 import connectDB from "@/utils/connectDB";
 
+export const dynamic = 'force-dynamic';
 async function ProfileDetails({ params }) {
+  
   const { profileId } = await params;
 
   await connectDB();
