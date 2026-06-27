@@ -9,7 +9,7 @@
 
 An advanced Real Estate Advertisement Management System built with **Next.js**. This application allows users to browse property listings and provides a robust administrative dashboard for managing, approving, and publishing advertisements.
 
-🚀 **[View Live Demo](YOUR_VERCEL_URL_HERE)**
+🚀 **[View Live Demo](https://ad-registration-app.vercel.app/)**
 
 ---
 
