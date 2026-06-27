@@ -59,26 +59,38 @@ An advanced Real Estate Advertisement Management System built with **Next.js**. 
 Follow these steps to run the project locally:
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/ad-registration-app.git
 cd ad-registration-app
+```
 
 ### 2. Install dependencies
+
 ```bash
 npm install
+
 # or
+
 yarn install
+```
 
 ### 3. Set up Environment Variables
+
 Create a `.env` file in the root directory and add your credentials. You can use the `.env.example` file as a template:
+
 ```env
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your_secret_here"
 MONGO_USER="your_db_username"
 MONGO_PASS="your_db_password"
 MONGO_URI="your_mongodb_connection_string"
+```
 
 ### 4. Run the development server
+
 ```bash
 npm run dev
-Open http://localhost:3000 with your browser to see the result.
+```
+
+Open <http://localhost:3000> with your browser to see the result.
