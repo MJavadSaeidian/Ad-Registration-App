@@ -13,12 +13,12 @@ export const yekan = localFont({
       style:"normal"
     },
      {
-      path:"/fonts/YekanBakh-bold.woff2",
+      path:"/fonts/YekanBakh-Bold.woff2",
       weight:"400",
       style:"normal"
     },
      {
-      path:"/fonts/YekanBakh-heavy.woff2",
+      path:"/fonts/YekanBakh-Heavy.woff2",
       weight:"600",
       style:"normal"
     },
