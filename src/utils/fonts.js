@@ -3,27 +3,27 @@ import localFont from "next/font/local"
 export const yekan = localFont({
   src: [
     {
-      path:"../../public/fonts/YekanBakh-Light.woff2",
+      path:"/fonts/YekanBakh-Light.woff2",
       weight:"100",
       style:"normal"
     },
      {
-      path:"../../public/fonts/YekanBakh-Regular.woff2",
+      path:"/fonts/YekanBakh-Regular.woff2",
       weight:"200",
       style:"normal"
     },
      {
-      path:"../../public/fonts/YekanBakh-bold.woff2",
+      path:"/fonts/YekanBakh-bold.woff2",
       weight:"400",
       style:"normal"
     },
      {
-      path:"../../public/fonts/YekanBakh-heavy.woff2",
+      path:"/fonts/YekanBakh-heavy.woff2",
       weight:"600",
       style:"normal"
     },
      {
-      path:"../../public/fonts/YekanBakh-Fat.woff2",
+      path:"/fonts/YekanBakh-Fat.woff2",
       weight:"700",
       style:"normal"
     },
