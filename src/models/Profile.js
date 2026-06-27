@@ -1,0 +1,63 @@
+import { Schema, model, models } from "mongoose";
+import { MdDescription } from "react-icons/md";
+const profileSchema = new Schema(
+    {
+        title: {
+            type: String,
+            required: true
+        },
+        description:
+        {
+            type: String,
+            required: true
+        },
+        location: {
+            type: String,
+            required: true
+        },
+        phone: {
+            type: String,
+            required: true
+        },
+        realState: {
+            type: String,
+            required: true
+        },
+        price: {
+            type: Number,
+            required: true
+        },
+        constructionDate: {
+            type: Date,
+            required: true
+        },
+        category: {
+            type: String,
+            enum: ["vila", "apartman", "store", "office"],
+            required: true
+        },
+        amenities: {
+            type: [String],
+            default: [],
+        },
+        rules: {
+            type: [String],
+            default: [],
+        },
+        userId: {
+            type: Schema.Types.ObjectId,
+            ref: "User"
+        },
+        published: {
+            type: Boolean,
+            default: false
+        }
+
+    },
+    //تاریخ ایجاد و آپدیت
+    { timestamps: true }
+)
+
+const Profile = models.Profile || model("Profile", profileSchema)
+
+export default Profile;

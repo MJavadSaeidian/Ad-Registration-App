@@ -1,0 +1,15 @@
+.text {
+  background-color: rgba(219, 5, 5, 0.159);
+  color: rgb(219, 5, 5);
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

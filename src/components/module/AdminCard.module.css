@@ -1,0 +1,36 @@
+.container button:nth-child(1) {
+    background-color: #00a800;
+    border: none;
+    padding: 5px 15px;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+}
+
+.container button:nth-child(2) {
+    background-color: #a80000;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.1s;
+}
+
+.container button:hover {
+    color: #000;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}

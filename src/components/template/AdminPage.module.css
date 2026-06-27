@@ -1,0 +1,21 @@
+.text {
+  background-color: rgba(219, 5, 5, 0.159);
+  color: rgb(219, 5, 5);
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  gap: 30px;
+}
+
+.main {
+  border: 2px solid #304ffe58;
+  border-radius: 10px;
+  padding: 10px;
+
+}
